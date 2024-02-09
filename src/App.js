@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound'
 import Header from './components/Header'
 import MovieDetail from './pages/MovieDetail'
 import Login from './logins/Login'
+import Main from './RadioGroup/main'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/person" element={<Celebrity />} />
         <Route path="/*" element={<NotFound />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/main" element={<Main />} />
       </Routes>
     </BrowserRouter>
    </div>

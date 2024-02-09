@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 // 데이터베이스가 없기에 객체로 성공할 이메일 비번을 생성
 const User = {
   email: 'person1234@naver.com',
-  pw: '12345678!@'
+  pw: 'ss45612a!@'
 };
 
 // useState 훅 사용하기 - 상태관리

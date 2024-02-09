@@ -34,6 +34,12 @@ export default function Header() {
                                 로그인
                             </Link>
                         </li>
+
+                        <li>
+                            <Link className="header-nav-item" to='/main'>
+                                라디오 그룹 화면
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
